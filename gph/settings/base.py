@@ -150,13 +150,13 @@ STATICFILES_STORAGE = 'gph.storage.CustomStorage'
 
 # Email SMTP information
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'FIXME'
-EMAIL_HOST_USER = 'FIXME'
-EMAIL_HOST_PASSWORD = 'FIXME'
-EMAIL_PORT = 'FIXME'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_SUBJECT_PREFIX = '[FIXME Puzzle Hunt] '
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = ''
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_PORT = ''
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_SUBJECT_PREFIX = '[P&KU Puzzle Hunt] '
 
 # https://docs.djangoproject.com/en/3.1/topics/logging/
 
@@ -187,7 +187,7 @@ LOGGING = {
             'format': '%(asctime)s [%(levelname)s] %(name)s %(message)s'
         },
     },
-    # FIXME you may want to change the filenames to something like
+    # TODO you may want to change the filenames to something like
     # /srv/logs/django.log or similar
     'handlers': {
         'django': {
